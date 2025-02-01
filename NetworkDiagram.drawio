@@ -61,30 +61,8 @@
         <mxCell id="Zt9elPk1ecMjoIfViZH1-88" value="Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.gateway_load_balancer;" parent="Zt9elPk1ecMjoIfViZH1-14" vertex="1">
           <mxGeometry x="150" y="70.5" width="39" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="1UCu62h8_dE0axEYMtPQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Zt9elPk1ecMjoIfViZH1-14" source="1UCu62h8_dE0axEYMtPQ-3" target="Zt9elPk1ecMjoIfViZH1-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1UCu62h8_dE0axEYMtPQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Zt9elPk1ecMjoIfViZH1-14" source="1UCu62h8_dE0axEYMtPQ-3" target="Zt9elPk1ecMjoIfViZH1-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1UCu62h8_dE0axEYMtPQ-3" value="VPN Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="Zt9elPk1ecMjoIfViZH1-14">
-          <mxGeometry x="-20" y="62" width="33.5" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Zt9elPk1ecMjoIfViZH1-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zt9elPk1ecMjoIfViZH1-17" target="Zt9elPk1ecMjoIfViZH1-92" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="170" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zt9elPk1ecMjoIfViZH1-17" value="Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.customer_gateway;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="150" y="260" width="39" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Zt9elPk1ecMjoIfViZH1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zt9elPk1ecMjoIfViZH1-26" target="Zt9elPk1ecMjoIfViZH1-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Zt9elPk1ecMjoIfViZH1-26" value="Support" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1" parent="1" vertex="1">
-          <mxGeometry x="-20" y="320" width="60" height="43.8" as="geometry" />
+          <mxGeometry x="-20" y="140" width="60" height="43.8" as="geometry" />
         </mxCell>
         <mxCell id="Zt9elPk1ecMjoIfViZH1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zt9elPk1ecMjoIfViZH1-35" target="Zt9elPk1ecMjoIfViZH1-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -227,11 +205,28 @@
         <mxCell id="1UCu62h8_dE0axEYMtPQ-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="340" width="69" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="1UCu62h8_dE0axEYMtPQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zt9elPk1ecMjoIfViZH1-17" target="1UCu62h8_dE0axEYMtPQ-3">
+        <mxCell id="1UCu62h8_dE0axEYMtPQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1UCu62h8_dE0axEYMtPQ-3" target="Zt9elPk1ecMjoIfViZH1-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="189" y="280" as="sourcePoint" />
-            <mxPoint x="270" y="270" as="targetPoint" />
+            <mxPoint x="220" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="369" />
+              <mxPoint x="140" y="270" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1UCu62h8_dE0axEYMtPQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1UCu62h8_dE0axEYMtPQ-3" target="Zt9elPk1ecMjoIfViZH1-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="369" />
+              <mxPoint x="140" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1UCu62h8_dE0axEYMtPQ-3" value="VPN Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="350" width="33.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="1UCu62h8_dE0axEYMtPQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zt9elPk1ecMjoIfViZH1-26" target="1UCu62h8_dE0axEYMtPQ-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
