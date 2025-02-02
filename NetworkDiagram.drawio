@@ -202,9 +202,6 @@
         <mxCell id="Zt9elPk1ecMjoIfViZH1-98" value="Container" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" parent="1" vertex="1">
           <mxGeometry x="465" y="500" width="45" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1UCu62h8_dE0axEYMtPQ-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="340" width="69" height="72" as="geometry" />
-        </mxCell>
         <mxCell id="1UCu62h8_dE0axEYMtPQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1UCu62h8_dE0axEYMtPQ-3" target="Zt9elPk1ecMjoIfViZH1-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="368" as="targetPoint" />
@@ -227,6 +224,18 @@
         </mxCell>
         <mxCell id="1UCu62h8_dE0axEYMtPQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zt9elPk1ecMjoIfViZH1-26" target="1UCu62h8_dE0axEYMtPQ-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1UCu62h8_dE0axEYMtPQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zt9elPk1ecMjoIfViZH1-87" target="Zt9elPk1ecMjoIfViZH1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="375" as="sourcePoint" />
+            <mxPoint x="530" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1UCu62h8_dE0axEYMtPQ-11" value="internal IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1UCu62h8_dE0axEYMtPQ-10">
+          <mxGeometry x="0.4759" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
